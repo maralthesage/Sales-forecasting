@@ -1,7 +1,7 @@
-📈 Product Sales Forecasting with LSTM
+# 📈 Product Sales Forecasting with LSTM
 This project predicts monthly sales units for each product using historical sales data and category-specific seasonality profiles.It uses a Keras LSTM model to learn time series patterns and outputs forecasts for the next 12 months.
 
-🚀 Features
+## 🚀 Features
 * Historical data ingestion: Loads and processes all available sales history per product.
 * Seasonality factors: Integrates per-category (warengruppe) monthly seasonality into the model input.
 * Dynamic time series generation: Automatically fills gaps in monthly sales records.
@@ -9,7 +9,7 @@ This project predicts monthly sales units for each product using historical sale
 * Future forecasting: Produces 12-month forecasts per product.
 * CSV export: Outputs results in a clean tabular format.
 
-📂 Project Structure
+## 📂 Project Structure
 product_forecasting/
 ├── data/
 │   └── sales_data.csv
@@ -24,7 +24,7 @@ product_forecasting/
 ├── main.py
 └── README.md
 
-🛠️ Requirements
+## 🛠️ Requirements
 * Python 3.8+
 * pandas
 * numpy
