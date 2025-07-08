@@ -10,7 +10,7 @@ This project predicts monthly sales units for each product using historical sale
 * CSV export: Outputs results in a clean tabular format.
 
 ## 📂 Project Structure
-product_forecasting/
+```product_forecasting/
 ├── data/
 │   └── sales_data.csv
 ├── seasonality/
@@ -22,7 +22,8 @@ product_forecasting/
 │   ├── train.py
 │   └── predict.py
 ├── main.py
-└── README.md
+└── README.md```
+
 
 ## 🛠️ Requirements
 * Python 3.8+
